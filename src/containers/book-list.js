@@ -32,7 +32,9 @@ function mapStateToProps(state){
 	};
 }
 
-// Anything returned from this funciton will end up as props on the BookList Container
+
+// ACTION CREATOR
+// Anything returned from this function will end up as props on the BookList Container
 function mapDispatchToProps(dispatch){
 
 	//Whenever selectBook is called, the result should be passed to all reducers
