@@ -1,5 +1,5 @@
 
-// State argument is not applicable state, is only
+// State argument is not application state, is only
 // the state this reducer is responsible for
 export default function(state = null, action){
 
